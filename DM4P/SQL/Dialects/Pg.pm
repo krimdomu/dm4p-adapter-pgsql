@@ -7,6 +7,7 @@ use DM4P::SQL::Dialects::Pg::SELECT;
 use DM4P::SQL::Dialects::Pg::INSERT;
 use DM4P::SQL::Dialects::Pg::DELETE;
 use DM4P::SQL::Dialects::Pg::UPDATE;
+use DM4P::SQL::Dialects::Pg::CREATE;
 
 use base qw(DM4P::SQL::Dialects::DialectBase);
 
