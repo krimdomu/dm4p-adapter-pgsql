@@ -58,4 +58,13 @@ sub connect {
 #    Internat Use.
 sub class_type { shift; return "Pg"; }
 
+# Function: type
+#
+#    Returns the Database-Type.
+#
+# Returns:
+#
+#   String - Database-Type.
+sub type { shift; return "Pg"; }
+
 1;
