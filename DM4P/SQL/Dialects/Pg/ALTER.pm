@@ -1,20 +1,20 @@
-package DM4P::SQL::Dialects::Pg::CREATE;
+package DM4P::SQL::Dialects::Pg::ALTER;
 
 use strict;
 use warnings;
 
-use base qw(DM4P::SQL::Dialects::Pg DM4P::SQL::Dialects::Base::CREATE);
+use base qw(DM4P::SQL::Dialects::Pg DM4P::SQL::Dialects::Base::ALTER);
 
 # ------------------------------------------------------------------------------
 # Group: Constructor
 # ------------------------------------------------------------------------------
 # Function: new
 #
-#   Creates an new DM4P::SQL::Query Object.
+#   Creates an new DM4P::SQL::Dialects::Pg::ALTER Object.
 #
 # Returns:
 #
-#   DM4P::SQL::Dialects::Pg::CREATE
+#   DM4P::SQL::Dialects::Pg::ALTER
 sub new {
    my $that = shift;
    my $proto = ref($that) || $that;
